@@ -1,0 +1,157 @@
+.qr-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.qr-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.qr-header h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.qr-header p {
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.qr-input-section {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.url-input {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #e1e5e9;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.url-input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.generate-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
+}
+
+.generate-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+}
+
+.qr-display-section {
+  text-align: center;
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.qr-display-section h3 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.qr-code-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download-btn:hover {
+  background: #218838;
+  transform: translateY(-1px);
+}
+
+.instructions {
+  background: #e3f2fd;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-left: 4px solid #2196f3;
+}
+
+.instructions h3 {
+  color: #1976d2;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.instructions ol {
+  color: #333;
+  line-height: 1.6;
+}
+
+.instructions li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .qr-container {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .qr-header h1 {
+    font-size: 2rem;
+  }
+  
+  .qr-input-section,
+  .qr-display-section {
+    padding: 1.5rem;
+  }
+}
